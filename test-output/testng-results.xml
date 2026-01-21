@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[ On start Executed]]>
+    </line>
+    <line>
+      <![CDATA[LE_002 On Test Start Executed]]>
+    </line>
+    <line>
+      <![CDATA[LE_002 On Test Failure executed]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2026-01-10T16:54:09 IST" name="Default suite" finished-at="2026-01-10T16:54:38 IST" duration-ms="29647">
+    <groups>
+      <group name="Smoke">
+        <method signature="TC_002.LE_002()[pri:0, instance:testCaseRepo.TC_002@7dcf94f8]" name="LE_002" class="testCaseRepo.TC_002"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2026-01-10T16:54:09 IST" name="Default test" finished-at="2026-01-10T16:54:38 IST" duration-ms="29647">
+      <class name="testCaseRepo.TC_002">
+        <test-method is-config="true" signature="dbConnection()[pri:0, instance:testCaseRepo.TC_002@7dcf94f8]" started-at="2026-01-10T16:54:09 IST" name="dbConnection" finished-at="2026-01-10T16:54:09 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dbConnection -->
+        <test-method is-config="true" signature="bcConfic(java.lang.String)[pri:0, instance:testCaseRepo.TC_002@7dcf94f8]" started-at="2026-01-10T16:54:09 IST" name="bcConfic" finished-at="2026-01-10T16:54:16 IST" duration-ms="7110" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bcConfic -->
+        <test-method is-config="true" signature="bmConfic()[pri:0, instance:testCaseRepo.TC_002@7dcf94f8]" started-at="2026-01-10T16:54:16 IST" name="bmConfic" finished-at="2026-01-10T16:54:23 IST" duration-ms="7313" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bmConfic -->
+        <test-method signature="LE_002()[pri:0, instance:testCaseRepo.TC_002@7dcf94f8]" started-at="2026-01-10T16:54:23 IST" name="LE_002" finished-at="2026-01-10T16:54:35 IST" duration-ms="11251" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.fail(Assert.java:116)
+at testCaseRepo.TC_002.LE_002(TC_002.java:21)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[LE_002 On Test Start Executed]]>
+            </line>
+            <line>
+              <![CDATA[LE_002 On Test Failure executed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- LE_002 -->
+        <test-method is-config="true" signature="amConfic()[pri:0, instance:testCaseRepo.TC_002@7dcf94f8]" started-at="2026-01-10T16:54:35 IST" name="amConfic" finished-at="2026-01-10T16:54:38 IST" duration-ms="3024" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amConfic -->
+        <test-method is-config="true" signature="acConfic()[pri:0, instance:testCaseRepo.TC_002@7dcf94f8]" started-at="2026-01-10T16:54:38 IST" name="acConfic" finished-at="2026-01-10T16:54:38 IST" duration-ms="534" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- acConfic -->
+        <test-method is-config="true" signature="asConfic()[pri:0, instance:testCaseRepo.TC_002@7dcf94f8]" started-at="2026-01-10T16:54:39 IST" name="asConfic" finished-at="2026-01-10T16:54:39 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- asConfic -->
+      </class> <!-- testCaseRepo.TC_002 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
