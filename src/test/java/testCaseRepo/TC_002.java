@@ -17,7 +17,6 @@ public class TC_002 extends  BaseClass{
 	@Test(groups = {"Smoke"},retryAnalyzer = genericUtility.RetryAnalyzerImplementation.class)
 	public void LE_002() throws Exception {
 		new HomePage(d).clickOnLeadsMenu();
-		Assert.fail();
 		new LeadsPage(d).clickOnCreateLead();
 		
 		String lName = eutil.getSingleDataFromExcel("Leads", 4, 1);
