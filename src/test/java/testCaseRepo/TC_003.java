@@ -31,7 +31,5 @@ public class TC_003 extends BaseClass{
 		
 	}
 	
-	public void hi() {
-		System.out.println("Hello");
-	}
+	
 }
